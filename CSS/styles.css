@@ -1,0 +1,187 @@
+* {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;    
+}
+
+body {
+    background-color: black;
+    font-family:'Courier New', Courier, monospace ;
+}
+
+img {
+    border-radius: 150px;
+    border: 10px solid;
+    height: 150px;
+    width: 150px;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: .5rem;
+}
+
+.box1 {
+    background: white url(https://images.unsplash.com/photo-1588847938486-d94437a62e66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGdyZXklMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60.jpeg);
+    background-size: cover;
+    background-position: center;
+    border: 15px solid rgb(88, 97, 97);
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    height: 800px;
+    margin-left: 10px;
+}
+.profile h1 {
+    display: flex;
+    justify-content: center;
+}
+.profile h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.image1 {
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    background-color: black;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    color: white;
+    font-size: small;
+}
+
+
+.contact {
+    background-color: black;
+    border: 2px solid;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.contact h2 {
+    color: white;
+}
+
+#nav-bar {
+    background-color: rgba(0,0,0,0.5);
+    margin-bottom: .5rem;
+    padding: 12px;
+   /* position: sticky;
+    top: 0;*/
+
+}
+
+#nav-bar li {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline-block;
+    width: 24%;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: orange;
+}
+
+#nav-bar a:hover {
+    color: rgb(16, 103, 202);
+    letter-spacing: 3px;
+    transition: 1s;
+}
+
+.education {
+    border: 15px solid rgb(88, 97, 97);
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: .5rem;
+    padding: 10px;
+    margin-right: 20px;
+}
+.education h2 {
+    color: white;
+}
+.education h3 {
+    color: white;
+}
+.education p {
+    color: white;
+}
+.education a{
+    color: orange;
+}
+.education a:hover {
+    color: rgb(16, 103, 202);
+    letter-spacing: 0.1em;
+    transition: 1s;
+}
+
+/* experience and skills grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: .5rem;
+}
+
+.experience {
+    border: 15px solid rgb(88, 97, 97);
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: .5rem;
+    padding: 10px;
+}
+.experience h2 {
+    color: white;
+}
+.experience h3 {
+    color: white;
+}
+.experience ul {
+    color: white;
+}
+
+
+.skills {
+    border: 15px solid rgb(88, 97, 97);
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: .5rem;
+    padding: 10px;
+    margin-right: 30px;
+}
+.skills h2 {
+    color: white;
+}
+.skills ul {
+    color: white;
+    font-size: larger;
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 15px solid rgb(88, 97, 97);
+    border-radius: 10px;
+}
+
+footer h2 {
+    color: white;
+}
+
+footer h3 {
+    color: white;
+}
+
+form {
+    color: white;
+}
