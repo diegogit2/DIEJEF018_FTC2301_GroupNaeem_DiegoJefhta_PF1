@@ -4,10 +4,11 @@
 <head>
     <title> Diego Jeftha's Resume </title>
     <link rel="stylesheet" type="text/css" href="/CSS/styles.css">
+    <metaname="viewport" content="width=device-width, initial-scale=1.0"></metaname>
+    <script src="https://kit.fontawesome.com/6cc6709335.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
     <aside id="nav-bar">
         <ul>
             <h3>
@@ -18,25 +19,20 @@
             </h3>
         </ul>
     </aside>
-
     <div class="main-container">
         <header>
-
-
             <div class="box1">
-                <picture>
-                    <source media="(max-width: 650px)" srcset=""
-                </picture>
+
                 <div class="profile">
                     <div class="image1">
+
                         <img src="./project-images/IMG_20220731_011459_325.jpg" alt="profile photo">
                     </div>
                     <h1> DIEGO JEFTHA </h1>
                     <h2>JR. WEB DEVELOPER</h2>
                 </div>
-
                 <div class="about">
-                   <H3>ABOUT ME:</H3> 
+                    <H3>ABOUT ME:</H3>
                     <p>
                         An introductory personal statement. (Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit,
@@ -58,30 +54,31 @@
                         deserunt mollit
                         anim id est laborum.)
                     </p>
+
                 </div>
-
                 <div class="contact">
-                    <h2 id="contact"> Contact Details: </h2>
-
-                    <h3><a href="https://www.linkedin.com/in/diego-jeftha-49629325b/" target="_blank">
-                            LinkedIn</a>
+                    <h2 id="contact"> Contact: </h2>
+                    <h3>
+                        <ul>
+                            <li> <a href="https://www.linkedin.com/in/diego-jeftha-49629325b/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i> LinkedIn </a></li>
+                            <br>
+                            <li> <i class="fa-solid fa-phone"> </i> +27 83 451 8363 </li>
+                            <br>
+                            <li> <i class="fa-solid fa-envelope"></i> diegojeftha51@gmail.com</li>
+                        </ul>
                     </h3>
                 </div>
             </div>
-
         </header>
-
         <section>
-
             <div class="box2">
                 <article>
-
                     <div class="education">
                         <h2 id="education"> Education </h2>
                         <h3> Intro to Web at <a href="https://www.codespace.co.za/about/" target="_blank">CodeSpace
                                 Academy</a>
                         </h3>
-
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             incididunt
                             ut
@@ -98,13 +95,9 @@
                             deserunt mollit
                             anim id est laborum.
                         </p>
-                        
-
                         <br>
                         <br>
-
                         <h3> Qualification 2 </h3>
-
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             incididunt
                             ut
@@ -122,21 +115,17 @@
                             anim id est laborum.
                         </p>
                     </div>
-
                     <div class="grid-container">
                         <div class="experience">
                             <h2 id="experience"> Experience </h2>
                             <h3> Job 1 </h3>
-
                             <ul>
                                 <li> A sentence about the responsibilities of the job </li>
                                 <li> A sentence about the responsibilities of the job </li>
                                 <li> A sentence about the responsibilities of the job </li>
                                 <li> A sentence about the responsibilities of the job </li>
                             </ul>
-
                             <h3> Job 2 </h3>
-
                             <ul>
                                 <li> A sentence about the responsibilities of the job </li>
                                 <li> A sentence about the responsibilities of the job </li>
@@ -144,7 +133,6 @@
                                 <li> A sentence about the responsibilities of the job </li>
                             </ul>
                         </div>
-
                         <div class="skills">
                             <h2 id="skills"> Skills </h2>
                             <ul>
@@ -155,59 +143,44 @@
                             </ul>
                         </div>
                     </div>
-
                 </article>
             </div>
-
         </section>
     </div>
-
     <footer>
-
-        <form action="https://formsubmit.co/diegojeftha51@gmail.com" method="POST">
-            <h2>Contact me via email</h2>
-            <h3> Feedback </h3>
-
-            <div>
-                <label for="firs_tname"> First name: </label>
-                <input type="text" id="first_name" name="first_tname" placeholder="first name" required>
-            </div>
-
-            <br>
-
-            <div>
-                <label for="last_name"> Last name: </label>
-                <input type="text" id="last_name" name="last_name" placeholder="last name" required>
-            </div>
-
-            <br>
-
-            <div>
-                <label for="email"> Email: </label>
-                <input type="email" id="email" name="email" placeholder="name@gmail.com" required>
-            </div>
-
-            <br>
-
-            <div class="feedback">
-                <label for="feedback">Feedback:</label>
-                <textarea placeholder="Type something here..."></textarea>
-
-            </div>
-
-            <br>
-
-            <div>
-                <input type="reset">
-            </div>
-
-            <br>
-
-            <div>
-                <input type="submit">
-            </div>
-
-            </div>
+        <div class="form">
+            <form action="https://formsubmit.co/diegojeftha51@gmail.com" method="POST">
+                <h2>Contact me via email</h2>
+                <h3> Give your Feedback </h3>
+                <div>
+                    <label for="firs_tname"> First name: </label>
+                    <input type="text" id="first_name" name="first_tname" placeholder="first name" required> <i class="far fa-user"></i>
+                </div>
+                <br>
+                <div>
+                    <label for="last_name"> Last name: </label>
+                    <input type="text" id="last_name" name="last_name" placeholder="last name" required>  <i class="far fa-user"></i>
+                </div>
+                <br>
+                <div>
+                    <label for="email"> Email: </label>
+                    <input type="email" id="email" name="email" placeholder="name@gmail.com" required>  <i class="far fa-envelope"></i>
+                </div>
+                <br>
+                <div class="feedback">
+                    <label for="feedback">Feedback:</label>
+                    <textarea cols="30" rows="5" placeholder="Type something here..."></textarea>
+                </div>
+                <br>
+                <div>
+                    <input type="reset">
+                </div>
+                <br>
+                <div>
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
     </footer>
 </body>
 
